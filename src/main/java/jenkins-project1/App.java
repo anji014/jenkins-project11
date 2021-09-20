@@ -1,16 +1,18 @@
 package jenkins-project1;
 
-public class App {
+class App {
 
   public static void main(String[] args) {
-    int rows = 5;
+    
+    System.out.println("Enter two numbers");
+    int first = 10;
+    int second = 20;
+    
+    System.out.println(first + " " + second);
 
-    for (int i = 1; i <= rows; ++i) {
-      for (int j = 1; j <= i; ++j) {
-        System.out.print(" * ");
-      }
-      System.out.println();
-    }
+    // add two numbers
+    int sum = first + second;
+    System.out.println("The sum is: " + sum);
   }
 }
 
